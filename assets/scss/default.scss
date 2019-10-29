@@ -1,0 +1,99 @@
+body {
+    font-family: $font;
+    font-weight: 500;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    background-color: #F8F8FA;
+  }
+
+  
+
+
+
+.img-fr{
+  margin-left: 20px;
+  margin-top: -10px!important;
+}
+
+
+  
+  nav {
+    transition: 0.45s ease-in-out;
+    background-color: $whitetwo;
+    text-align: center;
+    .bg-full-nav {
+        opacity: 0; 
+    }
+    .navbar-brand {
+      .img-one {
+        display: none;
+        padding-left: 0px;
+      }
+      .img-two {
+        display: block;
+      }
+    }
+    .collapse {
+      ul {
+        li {
+          
+          a {
+            
+              color: $blueg;
+              font-weight: 800;
+              text-transform: uppercase;
+          }
+        }
+      }
+    }
+    
+
+    &.nav-shadow {
+        background-color: $blueg;
+        z-index: 1041;
+      .navbar-brand {
+        .img-one {
+          display: block;
+        }
+        .img-two {
+          display: none;
+        }
+      }
+      .btn-nav {
+        div {
+          background-color: $whitetwo;
+        }
+      }
+      .collapse {
+        ul {
+          li {
+            a {
+              color: $whitetwo;
+              font-weight: 800;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+      .bg-full-nav {
+        opacity: 1;
+        position: absolute;
+        background-color: $blueg;
+        width: 100%;
+        height: 100vh;
+        top:0;
+        left: 0;
+        z-index: -1;
+    }
+    }
+   
+  }
+  @media only screen and (min-width: $sm) {}
+  @media only screen and (min-width: $md) {}
+  @media only screen and (min-width: $lg) {}
+  @media only screen and (min-width: $xl) {}
+  @media only screen and (min-width: 1736px) {}
+  @keyframes svganimation{}
