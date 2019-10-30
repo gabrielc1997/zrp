@@ -8,9 +8,9 @@
 
                 <div class="col-md-4 d-flex justify-content-end">
 
-                    <img src="./assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
-                    <img src="./assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
-                    <img src="./assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
                 </div>
 
             </div>
@@ -29,10 +29,9 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://unpkg.com/imask"></script>
-    <script src="./assets/js/form.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
-    <script src="./assets/js/main.js?555"></script>
+    <script src="<?php bloginfo('template_url'); ?>/assets/js/main.js?555"></script>
 </body>
 
 </html>

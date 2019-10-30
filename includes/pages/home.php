@@ -15,13 +15,13 @@
                 <div class="col-lg-4 col-6 mt-md-5 mt-0 pt-5">
                     <div class="carousel align-self-end">
                         <div class="carousel-cell">
-                            <img src="./assets/img/cafeteira_roxa.png" class="img-fluid" alt="">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cafeteira_roxa.png" class="img-fluid" alt="">
                         </div>
                         <div class="carousel-cell">
                             <img src="./assets/img/cafeteira_azul.png" class="img-fluid" alt="">
                         </div>
                         <div class="carousel-cell">
-                            <img src="./assets/img/cafeteira_sombra_v2.png" class="img-fluid" alt="">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cafeteira_sombra_v2.png" class="img-fluid" alt="">
                         </div>
 
                     </div>
@@ -72,7 +72,7 @@
                 <div class="col-12 col-md-4">
                     <div
                         class="border bgc-white my-2 my-md-5 d-flex flex-row flex-md-column justify-content-start align-items-center py-3 px-4 py-md-5">
-                        <img src="./assets/img/Xicara.svg" alt="Você escolhe e personaliza o projeto do seu jeito"
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/Xicara.svg" alt="Você escolhe e personaliza o projeto do seu jeito"
                             class="img-fluid pr-4 pb-3 pr-md-0">
                         <p class="text-md-center text-left">
                             A partir de agora, nós cuidamos de tudo!
@@ -82,7 +82,7 @@
                 <div class="col-12 col-md-4">
                     <div
                         class="border bgc-white my-2 my-md-5 d-flex flex-row flex-md-column justify-content-start align-items-center py-3 px-4 py-md-5">
-                        <img src="./assets/img/Termometro.svg" alt="Você escolhe e personaliza o projeto do seu jeito"
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/Termometro.svg" alt="Você escolhe e personaliza o projeto do seu jeito"
                             class="img-fluid pr-4 pb-3 pr-md-0">
                         <p class="text-md-center text-left">
                             A partir de agora, nós cuidamos de tudo!
@@ -92,7 +92,7 @@
                 <div class="col-12 col-md-4">
                     <div
                         class="border bgc-white my-2 my-md-5 d-flex flex-row flex-md-column justify-content-start align-items-center py-3 px-4 py-md-5">
-                        <img src="./assets/img/Cafeteira.svg" alt="Você escolhe e personaliza o projeto do seu jeito"
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/Cafeteira.svg" alt="Você escolhe e personaliza o projeto do seu jeito"
                             class="img-fluid pr-4 pb-3 pr-md-0">
 
                         <p class="text-md-center text-left">
@@ -122,7 +122,7 @@
 
 
                 <div class="col-12 offset-md-1 col-md-4 pb-4 tilt-image d-flex align-items-center justify-content-center justify-content-lg-start" style="">
-                    <img src="./assets/img/art-artistic-beverage-312418.png" class="img-fluid" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/art-artistic-beverage-312418.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-4 offset-md-1 col-12">
                     <h2 class="text-center text-md-left">
