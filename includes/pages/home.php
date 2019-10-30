@@ -1,77 +1,3 @@
-<!doctype html>
-<html lang="pt">
-
-<head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-</head>
-
-<body class="bgc-white">
-
-
-
-    <nav class="navbar fixed-top navbar-expand-lg">
-        <div class="container-fluid effect-menu align-items-start h-100 py-2">
-            <a class="navbar-brand" href="./index.html">
-
-                <img src="./assets/img/logo.png" alt="logo" class="img-two">
-            </a>
-            <button class="navbar-toggler btn-nav off" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="one"></div>
-        <div class="three"></div>
-      </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#specs">Sintonizada</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sintonizada">A Cafeteira</a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-
-    </nav>
-
-    <div id="bg-full-nav"></div>
-    <div id="bg-full-nav-2"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -216,49 +142,11 @@
         </div>
     </section>
 
-    <footer class="bgc-gray mt-5">
-        <div class="container">
-            <div class="row pt-3 pb-2 d-flex justify-content-center justify-content-lg-between align-items-center">
-                <div class="col-12 col-md-8 text-center text-lg-left">
-                    <p class="c-black pt-2">Copyright © 2019 ZRP. Todos os direitos reservados
-                        </p>
-                </div>
-
-                <div class="col-md-4 d-flex justify-content-end">
-
-                    <img src="./assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
-                    <img src="./assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
-                    <img src="./assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
-                </div>
-
-            </div>
-        </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="https://unpkg.com/imask"></script>
-    <script src="./assets/js/form.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
-    <script src="./assets/js/main.js?555"></script>
-</body>
-
-</html>
 
 
 
 
-
+  
 
 
 
