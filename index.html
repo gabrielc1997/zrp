@@ -1,68 +1,212 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="pt">
+
+<head>
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-<!-- Nav tabs -->
-<ul class="nav nav-tabs" id="navId">
-    <li class="nav-item">
-        <a href="#tab1Id" class="nav-link active">Active</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="#tab2Id">Action</a>
-            <a class="dropdown-item" href="#tab3Id">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#tab4Id">Action</a>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body class="bgc-white">
+
+
+    <section id="background-coffee">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <img src="./assets/img/logo.png" class="img-fluid" alt="">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+                        aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarsExample07">
+                        <ul class="navbar-nav ml-auto d-flex justify-content-end">
+                            <li class="nav-item active">
+                                <a class="nav-link c-white" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link c-white" href="#">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link c-white" href="#">A Cafeteira</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-4">
+                    <h1 class="c-white">
+                        A CAFETEIRA QUE
+                        SE CONECTA
+                        COM VOCÊ.
+                    </h1>
+                </div>
+                <div class="col-4 mt-2 pt-5">
+                    <div class="carousel">
+                        <div class="carousel-cell">
+                            <img src="./assets/img/cafeteira_roxa.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./assets/img/cafeteira_azul.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="./assets/img/cafeteira_sombra_v2.png" class="img-fluid" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
-    </li>
-    <li class="nav-item">
-        <a href="#tab5Id" class="nav-link">Another link</a>
-    </li>
-    <li class="nav-item">
-        <a href="#" class="nav-link disabled">Disabled</a>
-    </li>
-</ul>
-
-<!-- Tab panes -->
-<div class="tab-content">
-    <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-    <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-    <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-    <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-    <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
-</div>
-
-<script>
-    $('#navId a').click(e => {
-        e.preventDefault();
-        $(this).tab('show');
-    });
-</script>
+    </section>
 
 
+    <section id="specs">
+        <div class="container">
+            <div class="row d-flex align-items-center">
 
+                <div class="offset-1 col-4">
+                    <img src="./assets/img/NLD30BRVRM_PRD_447_3.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-4">
+                    <h2>
+                        SINTONIZADA COM <br>
+                        SEUS DESEJOS
+                    </h2>
+                    <p>
+                        Elegante e versátil. O acabamento em alumínio
+                        escovado oferece um design fino e contemporâneo,
+                        além de possibilitar a instalação na parede.
 
-
+                        Quer praticidade? O ajuste giratório permite escolher até 5 níveis diferentes de xícaras e a
+                        temperatura desejada.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
 
 
-      
+    <section id="cards" class="mt-5">
+        <div class="container pt-5">
+            <h2 class="text-center">
+                SINTONIZADA COM SEUS DESEJOS
+            </h2>
+            <div class="row d-flex align-items-center">
+
+                <div class="col-4">
+                    <div
+                        class="border bgc-white mt-5 mb-5 d-flex flex-row flex-md-column justify-content-start align-items-center py-3 px-4 py-md-5">
+                        <img src="./assets/img/Xicara.svg" alt="Você escolhe e personaliza o projeto do seu jeito"
+                            class="img-fluid pr-4 pr-md-0">
+                        <p class="text-center">
+                            A partir de agora, nós cuidamos de tudo!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div
+                        class="border bgc-white mt-5 mb-5 d-flex flex-row flex-md-column justify-content-start align-items-center py-3 px-4 py-md-5">
+                        <img src="./assets/img/Termometro.svg" alt="Você escolhe e personaliza o projeto do seu jeito"
+                            class="img-fluid pr-4 pr-md-0">
+                        <p class="text-center">
+                            A partir de agora, nós cuidamos de tudo!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div
+                        class="border bgc-white mt-5 mb-5 d-flex flex-row flex-md-column justify-content-start align-items-center py-3 px-4 py-md-5">
+                        <img src="./assets/img/Cafeteira.svg" alt="Você escolhe e personaliza o projeto do seu jeito"
+                            class="img-fluid pr-4 pr-md-0">
+
+                        <p class="text-center">
+                            A partir de agora, nós cuidamos de tudo!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sintonizada" class="mt-5">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+
+
+                <div class="col-12 offset-md-1 col-md-4 pb-4 tilt-image" style="">
+                    <img src="./assets/img/art-artistic-beverage-312418.png" class="img-fluid" alt="">
+                </div>
+                <div class="offset-1 col-5">
+                    <h2>
+                        SINTONIZADA COM <br>
+                        SEUS DESEJOS
+                    </h2>
+                    <p>
+                        Elegante e versátil. O acabamento em alumínio
+                        escovado oferece um design fino e contemporâneo,
+                        além de possibilitar a instalação na parede.
+
+                        Quer praticidade? O ajuste giratório permite escolher até 5 níveis diferentes de xícaras e a
+                        temperatura desejada.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bgc-gray mt-5">
+        <div class="container">
+            <div class="row pt-3 pb-2 d-flex justify-content-center justify-content-lg-between align-items-center">
+                <div class="col-12 col-md-8 text-center text-lg-left">
+                    <p class="c-white pt-2"><span class="c-black">Copyright © 2019 Cortiça. Todos os direitos reservados
+                        </span></p>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-end">
+
+                    <img src="./assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
+                    <img src="./assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
+                    <img src="./assets/img/instagram-logo.png" class="img-fluid mx-2" alt="">
+                </div>
+
+            </div>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./assets/js/form.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+    <script src="./assets/js/main.js?555"></script>
+</body>
+
 </html>

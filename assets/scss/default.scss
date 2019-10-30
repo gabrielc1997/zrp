@@ -8,92 +8,86 @@ body {
     -webkit-font-smoothing: antialiased !important;
     background-color: #F8F8FA;
   }
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  p{
+    font-size: 18px;
+  }
 
-  
 
-
-
-.img-fr{
-  margin-left: 20px;
-  margin-top: -10px!important;
+.is-selected{
+  width: 100%;
 }
 
 
-  
-  nav {
-    transition: 0.45s ease-in-out;
-    background-color: $whitetwo;
-    text-align: center;
-    .bg-full-nav {
-        opacity: 0; 
-    }
-    .navbar-brand {
-      .img-one {
-        display: none;
-        padding-left: 0px;
-      }
-      .img-two {
-        display: block;
-      }
-    }
-    .collapse {
-      ul {
-        li {
-          
-          a {
-            
-              color: $blueg;
-              font-weight: 800;
-              text-transform: uppercase;
-          }
-        }
-      }
-    }
-    
 
-    &.nav-shadow {
-        background-color: $blueg;
-        z-index: 1041;
-      .navbar-brand {
-        .img-one {
-          display: block;
-        }
-        .img-two {
-          display: none;
-        }
-      }
-      .btn-nav {
-        div {
-          background-color: $whitetwo;
-        }
-      }
-      .collapse {
-        ul {
-          li {
-            a {
-              color: $whitetwo;
-              font-weight: 800;
-              text-transform: uppercase;
-            }
-          }
-        }
-      }
-      .bg-full-nav {
-        opacity: 1;
-        position: absolute;
-        background-color: $blueg;
-        width: 100%;
-        height: 100vh;
-        top:0;
-        left: 0;
-        z-index: -1;
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 0px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#background-coffee{
+
+    background-image: url("../img/Background.png");
+    height: 800px;
+    nav{
+      background-color: unset;
     }
-    }
-   
-  }
+  
+}
+
+#cards{
+  background-color: #f2f2f2;
+}
+
+
+
+.tilt-image {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
   @media only screen and (min-width: $sm) {}
   @media only screen and (min-width: $md) {}
   @media only screen and (min-width: $lg) {}
-  @media only screen and (min-width: $xl) {}
+  @media only screen and (min-width: $xl) {
+
+  }
   @media only screen and (min-width: 1736px) {}
   @keyframes svganimation{}

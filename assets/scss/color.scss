@@ -20,7 +20,6 @@
 }
 
 @include defineColor('white', $white);
-@include defineColor('whitetwo', $whitetwo);
-@include defineColor('blueg', $blueg);
-@include defineColor('greeng', $greeng);
+@include defineColor('gray', $gray);
+@include defineColor('black', $black);
 
