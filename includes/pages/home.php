@@ -1,6 +1,16 @@
 
 
-
+    <style>
+        <?php if(get_the_post_thumbnail()) : ?>
+            #background-coffee{
+                background-image: url('<?php the_post_thumbnail_url(); ?>');
+            }
+        <?php else : ?>
+        #background-coffee{
+                background-image: url('<?php bloginfo('template_url'); ?>/assets/img/bg_1920x1080.png');
+            }
+<?php endif; ?>
+    </style>
 
     <section id="background-coffee">
         <div class="container vh">
@@ -117,6 +127,11 @@
     </section>
 
     <section id="sintonizada" class="mt-5">
+
+            
+
+
+
         <div class="container">
             <div class="row d-flex align-items-center">
 
