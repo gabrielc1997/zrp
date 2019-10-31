@@ -47,7 +47,7 @@
             <div class="row d-flex align-items-center">
 
                 <div class="offset-md-1 col-12 col-md-4 d-flex align-items-center justify-content-center justify-content-lg-start">
-                    <img src="./assets/img/NLD30BRVRM_PRD_447_3.png" class="img-fluid" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/NLD30BRVRM_PRD_447_3.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-4 col-12">
                     <h2 class="text-center text-md-left">
@@ -128,7 +128,7 @@
 
     <section id="sintonizada" class="mt-5">
 
-            
+
 
 
 
